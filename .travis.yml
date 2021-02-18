@@ -20,5 +20,5 @@ script:
 deploy:
   provider: heroku
   api-key: 
-    secure: $heroku-api-key
+    secure: $heroku_api_key
   app: labdevops1
